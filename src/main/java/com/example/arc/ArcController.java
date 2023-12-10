@@ -3,6 +3,7 @@ package com.example.arc;
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 
 
 public class ArcController {
@@ -14,6 +15,6 @@ public class ArcController {
 
     @FXML
     private void initialize() {
-        Arc.drawArc(canvas.getGraphicsContext2D(), 300, 100, 50,  0,  200);
+        Arc.drawArc(canvas.getGraphicsContext2D(), 300, 100, 50,  0,  360, Color.RED, Color.YELLOW);
     }
 }
