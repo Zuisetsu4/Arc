@@ -15,6 +15,6 @@ public class ArcController {
 
     @FXML
     private void initialize() {
-        Arc.drawArc(canvas.getGraphicsContext2D(), 300, 100, 50,  0,  360, Color.RED, Color.YELLOW);
+        Arc.drawArc(canvas.getGraphicsContext2D(), 300, 100, 50,  80,   20, Color.BLUE, Color.RED);
     }
 }
